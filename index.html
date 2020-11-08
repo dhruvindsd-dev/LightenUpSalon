@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="static/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="static/css/bulma.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/icons/css/all.css" />
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <title>LightenUpSalon</title>
+    <style>
+      .alegreya {
+        font-family: "Alegreya", serif;
+      }
+      .navbar {
+        z-index: 100;
+        transition: background-color 0.4s, padding 0.4s;
+      }
+      .flex-center {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar is-spaced is-fixed-top is-dark"
+      style="background-color: transparent"
+    >
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item is-size-3 alegreya"
+            ><span class="icon is-large" style="color: #ff6666"
+              ><i class="fas fa-cut"></i></span
+            ><span>Lighten Up Salon</span>
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            data-target="navMenu"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <a href="tel:9619363353" class="navbar-item is-size-5">
+              Book Appointment</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="hero is-fullheight"
+      style="
+        background-image: url('static/images/home-hero.jpg');
+        background-size: cover;
+
+        background-position: top;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        min-height: 90vh;
+      "
+    >
+      <div class="hero-head"></div>
+      <div
+        class="hero-body"
+        style="
+          backdrop-filter: brightness(0.8);
+          background-image: linear-gradient(
+            to right,
+            rgba(24, 24, 24, 0.952),
+            rgba(0, 0, 0, 0)
+          ); ;
+        "
+      >
+        <div>
+          <p class="is-size-1 has-text-weight-light has-text-light alegreya">
+            Makeup is self confidence <br />
+            applied directly to the face.
+          </p>
+          <br />
+          <a href="tel:9619363353" class="button is-medium"
+            >Call Us Today !!!</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="section" style="padding-bottom: 0">
+      <p class="content is-size-5">
+        <span class="has-text-weight-bold is-size-3 alegreya">Your hair</span>
+        is a reflection of your personality and we know how to bring out the
+        real you. Let us professionally cut and style your hair to complement
+        your facial features, then add a personal touch. Want reliable advice on
+        maintaining healthy hair? Make an appointment with a us to discuss the
+        right treatments and products for your individual type. We can help you
+        manage your style and keep it looking its best.
+      </p>
+    </div>
+    <div class="section">
+      <p class="title has-text-centered">YOUR SAFETY IS OUR FIRST PRIORITY.</p>
+      <div class="container">
+        <div class="columns is-centered is-multiline is-mobile">
+          <div class="column is-6 is-6-mobile">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/covid-measures/soap.svg" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered is-size-3 is-size-5-mobile">
+              Rigorous screeing of staff and customers
+            </p>
+          </div>
+          <div class="column is-6 is-6-mobile">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/covid-measures/cleaning.SVG" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered is-size-3 is-size-5-mobile">
+              Regular deep cleaning of premises
+            </p>
+          </div>
+          <div class="column is-6 is-6-mobile">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/covid-measures/makeup.svg" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered is-size-3 is-size-5-mobile">
+              Changes in service to minimize contact.
+            </p>
+          </div>
+          <div class="column is-6 is-6-mobile">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/covid-measures/mask.svg" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered is-size-3 is-size-5-mobile">
+              Personal Protection Equipment for staff.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="title has-text-centered section">
+        And many more to
+        <span style="color: #ff6666" class="alegreya"
+          >keep you safe and secure</span
+        >
+      </p>
+    </div>
+    <div class="section">
+      <p class="title has-text-centered">We Specialize In :</p>
+      <div class="columns is-centered">
+        <div class="column is-6">
+          <div class="box has-background-light">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/best/hair-dye.svg" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered title">Hair</p>
+            <ul
+              style="
+                text-transform: capitalize;
+                list-style-type: disc;
+                list-style-position: inside;
+              "
+            >
+              <li>Fasion Hair Colours And Grey Coverage</li>
+              <li>Smoothing and Straighting</li>
+              <li>Keratin</li>
+              <li>Loreal Smart Burn Treatment</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="box has-background-light">
+            <div class="flex-center">
+              <figure class="image is-96x96">
+                <img src="static/best/salon.svg" alt="" />
+              </figure>
+            </div>
+            <p class="has-text-centered title">Make Up</p>
+            <ul
+              style="
+                text-transform: capitalize;
+                list-style-type: disc;
+                list-style-position: inside;
+              "
+            >
+              <li>Fasion Hair Colours And Grey Coverage</li>
+              <li>Smoothing and Straighting</li>
+              <li>Keratin</li>
+              <li>Loreal Smart Burn Treatment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <p class="title has-text-centered">Special Diwali Offers</p>
+      <div class="columns">
+        <div class="column is-6">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-2by1">
+                <img
+                  src="static/packages/package.jpg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+            <div class="card-content has-background-light">
+              <p class="title has-text-centered">Festive Packages</p>
+              <ul
+                style="
+                  text-transform: capitalize;
+                  list-style-type: disc;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  Advance Pedicure
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  basic manicure
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  cleanup
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>1000
+                </li>
+                <li>
+                  Shine and glow
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  foot massage
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>850
+                </li>
+                <li>
+                  Hair spa
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  full normal wax
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  eyebrows
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>950
+                </li>
+                <li>
+                  CleanUp(fruit)
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  bleach
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  eyebrows
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>499
+                </li>
+                <li>
+                  Full hands
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  upper arms
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  legs wax
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  facial dian
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  eyebrows
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>1100
+                </li>
+                <li class="has-text-weight-bold">
+                  Buy any advance facial and get free bleach
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-2by1">
+                <img src="static/packages/hair.jpg" alt="" />
+              </figure>
+            </div>
+            <div class="card-content has-background-light">
+              <p class="title has-text-centered">Hair Packages</p>
+              <ul
+                style="
+                  text-transform: capitalize;
+                  list-style-type: disc;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  Keratin Treatment
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  fruit facial
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  Haircut
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>4000
+                </li>
+                <li>
+                  Classic Highlights
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  back Massage
+                  <span class="icon" style="color: #ff6666"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                  haircut
+                  <span class="icon"><i class="fas fa-at"></i></span>
+                  <span class=""><i class="fas fa-rupee-sign"></i></span>3000
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section has-text-centered">
+      <a
+        href="tel:9619363353"
+        class="button is-large is-danger is-outlined is-light"
+        ><span class="icon"><i class="fas fa-phone"></i></span
+        ><span>Book A Appointment Today </span></a
+      >
+    </div>
+    <div class="footer has-background-black">
+      <div class="columns">
+        <div class="column">
+          <p class="title has-text-centered has-text-light alegreya">
+            Opening Hours
+          </p>
+          <p class="is-size-5 has-text-light has-text-centered">
+            We are open all days of the week from 11Am to 8pm
+          </p>
+        </div>
+        <div class="column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.345503630604!2d72.838756!3d19.180505!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31f5827686d97536!2sLightenup%20Salon%20%26%20Spa!5e0!3m2!1sen!2sin!4v1604547650297!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+      <p class="has-text-centered">©2020 Lighten Up Salon</p>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const <span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Check if there are any navbar burgers
+        if (<span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          <span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const <span class=""><i class="fas fa-rupee-sign"></i></span>target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle("is-active");
+              <span class=""><i class="fas fa-rupee-sign"></i></span>target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+
+      const nav = document.querySelector("nav");
+      let isTransparent = true;
+      window.addEventListener("scroll", (event) => {
+        if (window.pageYOffset > 70 && isTransparent) {
+          nav.classList.remove("is-dark");
+          nav.classList.add("is-light");
+          nav.classList.remove("is-spaced");
+          nav.style.backgroundColor = "";
+          isTransparent = false;
+          nav.style.borderBottom = "2px solid black";
+        }
+
+        if (window.pageYOffset <= 50 && !isTransparent) {
+          nav.classList.remove("is-light");
+          nav.classList.add("is-dark");
+          nav.classList.add("is-spaced");
+
+          nav.style.backgroundColor = "transparent";
+          isTransparent = true;
+          nav.style.borderBottom = "0px";
+        }
+      });
+    </script>
+  </body>
+</html>
