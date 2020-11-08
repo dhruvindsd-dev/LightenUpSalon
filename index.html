@@ -56,7 +56,7 @@
         </div>
         <div class="navbar-menu" id="navMenu">
           <div class="navbar-end">
-            <a href="tel:9619363353" class="navbar-item is-size-5">
+            <a href="book_appointment" class="navbar-item is-size-5">
               Book Appointment</a
             >
           </div>
@@ -93,9 +93,7 @@
             applied directly to the face.
           </p>
           <br />
-          <a href="tel:9619363353" class="button is-medium"
-            >Call Us Today !!!</a
-          >
+          <a class="button is-medium">Call Us Today !!!</a>
         </div>
       </div>
     </div>
@@ -244,8 +242,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   cleanup
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>1000
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹1000/-
                 </li>
                 <li>
                   Shine and glow
@@ -253,8 +250,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   foot massage
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>850
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹850/-
                 </li>
                 <li>
                   Hair spa
@@ -266,8 +262,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   eyebrows
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>950
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹950/-
                 </li>
                 <li>
                   CleanUp(fruit)
@@ -279,8 +274,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   eyebrows
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>499
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹499/-
                 </li>
                 <li>
                   Full hands
@@ -300,8 +294,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   eyebrows
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>1100
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹1100/-
                 </li>
                 <li class="has-text-weight-bold">
                   Buy any advance facial and get free bleach
@@ -336,8 +329,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   Haircut
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>4000
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹4000/-
                 </li>
                 <li>
                   Classic Highlights
@@ -349,8 +341,7 @@
                     ><i class="fas fa-plus"></i
                   ></span>
                   haircut
-                  <span class="icon"><i class="fas fa-at"></i></span>
-                  <span class=""><i class="fas fa-rupee-sign"></i></span>3000
+                  <span class="icon"><i class="fas fa-at"></i></span> ₹3000/-
                 </li>
               </ul>
             </div>
@@ -359,11 +350,9 @@
       </div>
     </div>
     <div class="section has-text-centered">
-      <a
-        href="tel:9619363353"
-        class="button is-large is-danger is-outlined is-light"
+      <a href="" class="button is-large is-danger is-outlined is-light"
         ><span class="icon"><i class="fas fa-phone"></i></span
-        ><span>Book A Appointment Today </span></a
+        ><span>For more information call us today</span></a
       >
     </div>
     <div class="footer has-background-black">
@@ -394,23 +383,23 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         // Get all "navbar-burger" elements
-        const <span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers = Array.prototype.slice.call(
+        const $navbarBurgers = Array.prototype.slice.call(
           document.querySelectorAll(".navbar-burger"),
           0
         );
 
         // Check if there are any navbar burgers
-        if (<span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers.length > 0) {
+        if ($navbarBurgers.length > 0) {
           // Add a click event on each of them
-          <span class=""><i class="fas fa-rupee-sign"></i></span>navbarBurgers.forEach((el) => {
+          $navbarBurgers.forEach((el) => {
             el.addEventListener("click", () => {
               // Get the target from the "data-target" attribute
               const target = el.dataset.target;
-              const <span class=""><i class="fas fa-rupee-sign"></i></span>target = document.getElementById(target);
+              const $target = document.getElementById(target);
 
               // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
               el.classList.toggle("is-active");
-              <span class=""><i class="fas fa-rupee-sign"></i></span>target.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
             });
           });
         }
